@@ -13,6 +13,7 @@
 ### 👨‍💻 About Me
 
 I am a professional **DevOps Engineer** based in **Israel**, dedicated to building scalable, secure, and resilient infrastructure.
+
 I specialize in bridging the gap between development and operations through robust **CI/CD pipelines**, **cloud-native architectures**, and **GitOps** practices. My focus is on driving efficiency and reliability in production environments.
 
 ---
@@ -27,7 +28,7 @@ I specialize in bridging the gap between development and operations through robu
 
 | **Observability & Data** | **Languages & Scripting** |
 | :---: | :---: |
-| <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" /> <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" /> <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" /> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /> | <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /> |
 
 </div>
 
