@@ -12,11 +12,12 @@
 
 ### 👨‍💻 About Me
 
-I am a professional **DevOps Engineer** based in **Israel**, dedicated to building scalable, secure, and resilient infrastructure. I specialize in bridging the gap between development and operations through robust **CI/CD pipelines**, **cloud-native architectures**, and **GitOps** practices. My focus is on driving efficiency and reliability in production environments.
+I am a professional **DevOps Engineer** based in **Israel**, dedicated to building scalable, secure, and resilient infrastructure.
+I specialize in bridging the gap between development and operations through robust **CI/CD pipelines**, **cloud-native architectures**, and **GitOps** practices. My focus is on driving efficiency and reliability in production environments.
 
 ---
 
-### 🛠️ The Toolkit
+### 🛠️ Skills
 
 <div align="center">
 
@@ -30,10 +31,6 @@ I am a professional **DevOps Engineer** based in **Israel**, dedicated to buildi
 
 </div>
 
----
-
-### 📊 GitHub Stats
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=matanweisz&show_icons=true&theme=minimal&hide_border=true&bg_color=transparent" height="150" alt="stats graph" />
+  <p><i>Let's connect and build something awesome!</i></p>
 </div>
