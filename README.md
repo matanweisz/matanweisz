@@ -1,20 +1,18 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Matan Weisz: DevOps engineer, cloud and AI infrastructure" />
+  <img src="assets/banner.svg" width="100%" alt="Matan Weisz: DevOps, Cloud and AI Infrastructure Engineer" />
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/matanweisz"><img src="https://img.shields.io/badge/LinkedIn-say_hi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/based_in-Herzliya,_Israel-1f8f84?style=flat-square" alt="Based in Herzliya, Israel" />
-  <img src="https://img.shields.io/badge/status-open_to_new_roles-2ea44f?style=flat-square" alt="Open to new roles" />
 </p>
 
 ## About me
 
-Hey, I'm Matan, a DevOps engineer from Israel.
+Hello, my name is Matan and I'm a DevOps Engineer from Israel.
 
-I build and run cloud infrastructure: Kubernetes clusters, Terraform, and pipelines that ship code without anyone having to babysit them. Good infrastructure is the kind nobody has to think about, and that's what I aim for.
-
-Lately most of my curiosity goes to the infrastructure behind AI. I want to know how a model goes from a file on disk to a fast, reliable API, and how a company can let every team use LLMs safely without losing track of the bill.
+I build and run cloud infrastructure, Kubernetes clusters, Terraform projects and CI/CD pipelines.
+Lately most of my curiosity goes to the infrastructure behind AI. I love digging into how it really works: what happens between a prompt and a response, and the best practices that let so many people use AI without ever noticing the complex systems behind it.
 
 I do my best work as part of a strong team. I like digging into an incident together, giving and getting honest code reviews, and celebrating the deploys that turn out boring. I'm happy to be the teammate people can ask anything, and I ask plenty back.
 
@@ -41,70 +39,7 @@ status:
   openTo: [devops, platform, sre, ai-infrastructure]
 ```
 
-## My playbook
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Kubernetes platforms</h4>
-      <i>Clusters developers enjoy using.</i>
-      <ul>
-        <li>Every workload ships with requests, limits and health probes.</li>
-        <li>Least-privilege access and network policies by default.</li>
-        <li>Upgrade early and often, so upgrades stay boring.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>Infrastructure as code</h4>
-      <i>If it exists in the cloud, it exists in Git.</i>
-      <ul>
-        <li>Remote state with locking, and small modules that get reused.</li>
-        <li>Every change gets a reviewed plan before it's applied.</li>
-        <li>ClickOps is a bug.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <h4>CI/CD and GitOps</h4>
-      <i>Merging is the deploy.</i>
-      <ul>
-        <li>Argo CD keeps every cluster in sync with Git and corrects drift on its own.</li>
-        <li>Short-lived OIDC credentials instead of stored cloud keys.</li>
-        <li>Canary releases that roll back by themselves when the numbers look bad.</li>
-      </ul>
-    </td>
-    <td valign="top">
-      <h4>Observability and reliability</h4>
-      <i>Know something's wrong before the users do.</i>
-      <ul>
-        <li>Alerts on what users actually feel, measured against SLOs.</li>
-        <li>Dashboards that answer a question someone really asks.</li>
-        <li>Blameless postmortems that end with a fix, and a runbook.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h4>AI infrastructure</h4>
-      <i>Models and LLM features run like any other production service.</i>
-      <ul>
-        <li>Models and images pinned by digest, and prompts versioned like code.</li>
-        <li>Evals run in CI, so a bad prompt change fails the build before it reaches a customer.</li>
-        <li>One gateway for every team's keys, budgets and provider fallback.</li>
-        <li>GPUs scale to zero when nobody's calling, and every token has a known cost.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-## Where I'm heading
-
-I want to work on AI platform teams: the people who make it easy for a whole company to build with AI. That means serving models efficiently on GPUs, building gateways and self-service tools for developers, and making AI features as reliable as everything else in production.
-
-Further down the road, I'd love to work hands-on with customers, helping them take AI from a demo to production.
-
-## Skills and tools
+## Skills and Tools
 
 <table width="100%">
   <tr>
