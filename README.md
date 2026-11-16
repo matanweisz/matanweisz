@@ -8,7 +8,17 @@
   <img src="https://img.shields.io/badge/status-open_to_new_roles-2ea44f?style=flat-square" alt="Open to new roles" />
 </p>
 
-I'm a DevOps engineer. I like infrastructure that does its job so well nobody has to think about it, and most of mine lives in Kubernetes, Terraform and CI/CD on AWS and GCP. What excites me most is the infrastructure behind AI: getting models served fast on GPUs, and giving teams a safe, affordable way to build with LLMs.
+## About me
+
+Hey, I'm Matan, a DevOps engineer from Israel.
+
+I build and run cloud infrastructure: Kubernetes clusters, Terraform, and pipelines that ship code without anyone having to babysit them. Good infrastructure is the kind nobody has to think about, and that's what I aim for.
+
+Lately most of my curiosity goes to the infrastructure behind AI. I want to know how a model goes from a file on disk to a fast, reliable API, and how a company can let every team use LLMs safely without losing track of the bill.
+
+Before tech, I was a Company Sergeant Major in the IDF's Duvdevan unit. Leading a team under pressure turned out to be good training for production incidents.
+
+### If I were a Kubernetes resource
 
 ```yaml
 apiVersion: v1
@@ -23,6 +33,9 @@ spec:
     - automate the boring parts first
     - if it can't be rebuilt from code, it isn't done
     - small changes, shipped often, easy to roll back
+status:
+  phase: Running
+  openTo: [devops, platform, sre, ai-infrastructure]
 ```
 
 ## What I work on
@@ -30,86 +43,75 @@ spec:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>Platforms on Kubernetes</b><br/>
-      Clusters that teams can trust, with sensible defaults and upgrades nobody dreads.
+      <h4>Kubernetes platforms</h4>
+      I run Kubernetes clusters and make them easy for developers to use, so teams can ship without worrying about servers.
     </td>
     <td width="50%" valign="top">
-      <b>Everything as code</b><br/>
-      Terraform for the cloud, Git as the source of truth, and Argo CD keeping the two in sync. If an environment disappears, it comes back from a commit.
+      <h4>Infrastructure as code</h4>
+      All cloud resources live in Terraform and Git. Any environment can be rebuilt from scratch with one command.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>AI infrastructure</b><br/>
-      How open models get served efficiently on GPUs, and how one gateway can keep every team's LLM keys, limits and costs in one place.
+      <h4>CI/CD and GitOps</h4>
+      Pipelines that test and deploy automatically, with Argo CD keeping every cluster in sync with Git.
     </td>
     <td valign="top">
-      <b>AI in the delivery loop</b><br/>
-      Agents that use real tools through MCP, and AI that reads a failed pipeline and points at the cause. A coding assistant is part of my daily workflow.
+      <h4>AI infrastructure</h4>
+      Running AI models on Kubernetes and GPUs, and giving teams one simple, safe way to use LLMs.
     </td>
   </tr>
 </table>
 
-## Skill tree
+## Skills and tools
 
-<table>
-  <tr>
-    <td width="170"><b>Core</b><br/><sub>my day to day</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Cterraform%2Caws%2Cgcp%2Cgithubactions%2Cgitlab%2Clinux%2Cbash%2Cpy%2Cgit&theme=light" />
-        <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,aws,gcp,githubactions,gitlab,linux,bash,py,git&theme=dark" height="40" alt="Kubernetes, Docker, Terraform, AWS, GCP, GitHub Actions, GitLab, Linux, Bash, Python, Git" />
-      </picture>
-      <br/><sub>Helm · Argo CD · Crossplane · Jenkins · Prometheus · Grafana</sub>
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI infrastructure</b><br/><sub>where I'm going deepest</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go%2Cfastapi&theme=light" />
-        <img src="https://skillicons.dev/icons?i=go,fastapi&theme=dark" height="40" alt="Go, FastAPI" />
-      </picture>
-      <br/><sub>vLLM · SGLang · GPUs on Kubernetes · LLM gateways · MCP · Claude Code · LLM APIs · n8n</sub>
-    </td>
-  </tr>
-  <tr>
-    <td><b>App stack</b><br/><sub>for the tools I build</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react%2Cts%2Cvite%2Ctailwind%2Csupabase&theme=light" />
-        <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,supabase&theme=dark" height="40" alt="React, TypeScript, Vite, Tailwind, Supabase" />
-      </picture>
-    </td>
-  </tr>
-</table>
-
-## Project shelf
-
-<!-- Newest and best first. Each card: name, one line on why it's interesting, the stack. -->
-<table>
+<table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/matanweisz/claude-devops-interviews"><b>claude-devops-interviews</b></a><br/>
-      An AI interviewer built on Claude Code. It runs realistic DevOps interviews, adjusts to your level and remembers your weak spots between sessions.<br/>
-      <sub><code>Claude Code</code> <code>LLM agents</code> <code>DevOps</code></sub>
+      <h4>AI and LLM infrastructure</h4>
+      <img src="assets/ai-stack.svg" height="40" alt="vLLM, SGLang, GPUs, MCP, LLM APIs, Claude, n8n" /><br/>
+      <sub>Model serving · GPUs on Kubernetes · LLM gateways · AI agents</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/matanweisz/bigarch-devops-assignment"><b>bigarch-devops-assignment</b></a><br/>
-      An HPC scheduler wired into cloud-native monitoring. Slurm is built from source and installed by SaltStack, and its jobs report live load to Prometheus and Grafana on K3s. One <code>vagrant up</code> builds the whole thing.<br/>
-      <sub><code>Slurm</code> <code>K3s</code> <code>SaltStack</code> <code>Prometheus</code></sub>
+      <h4>Containers and Kubernetes</h4>
+      <img src="https://skillicons.dev/icons?i=kubernetes,docker" height="40" alt="Kubernetes, Docker" /><br/>
+      <sub>EKS · GKE · Helm · Crossplane</sub>
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <a href="https://github.com/matanweisz/package-tracker-api"><b>package-tracker-api</b></a><br/>
-      An event-driven package tracking API where reads and writes take separate paths (CQRS).<br/>
-      <sub><code>Python</code> <code>Kafka</code> <code>MongoDB</code> <code>Redis</code></sub>
+      <h4>Cloud</h4>
+      <img src="https://skillicons.dev/icons?i=aws,gcp" height="40" alt="AWS, Google Cloud" /><br/>
+      <sub>EC2 · S3 · IAM · VPC · GCP Fleets · Shared VPC</sub>
     </td>
     <td valign="top">
-      <a href="https://github.com/matanweisz/deploy-n8n-production"><b>deploy-n8n-production</b></a><br/>
-      One script turns a clean VM into a production n8n, with PostgreSQL behind an nginx reverse proxy.<br/>
-      <sub><code>Bash</code> <code>Docker Compose</code> <code>PostgreSQL</code> <code>nginx</code></sub>
+      <h4>Infrastructure as code</h4>
+      <img src="https://skillicons.dev/icons?i=terraform" height="40" alt="Terraform" /><br/>
+      <sub>Modules · multi-environment setups · Crossplane</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h4>CI/CD and GitOps</h4>
+      <img src="https://skillicons.dev/icons?i=githubactions,gitlab,jenkins" height="40" alt="GitHub Actions, GitLab CI, Jenkins" /><br/>
+      <sub>Argo CD · GitOps workflows</sub>
+    </td>
+    <td valign="top">
+      <h4>Observability</h4>
+      <img src="https://skillicons.dev/icons?i=prometheus,grafana" height="40" alt="Prometheus, Grafana" /><br/>
+      <sub>Loki · Mimir · Alloy</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h4>Code and foundations</h4>
+      <img src="https://skillicons.dev/icons?i=py,bash,go,linux,git" height="40" alt="Python, Bash, Go, Linux, Git" /><br/>
+      <sub>Automation scripts · networking</sub>
+    </td>
+    <td valign="top">
+      <h4>Apps and tools I build</h4>
+      <img src="https://skillicons.dev/icons?i=fastapi,react,ts,tailwind,supabase" height="40" alt="FastAPI, React, TypeScript, Tailwind, Supabase" /><br/>
+      <sub>Internal tools · mobile-friendly web apps</sub>
     </td>
   </tr>
 </table>
