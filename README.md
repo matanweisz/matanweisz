@@ -9,14 +9,14 @@
 
 ## About me
 
-Hello, my name is Matan and I'm a DevOps Engineer from Israel.
+Hello, my name is Matan and I'm a DevOps, Cloud and AI Infrastructure Engineer from Israel.
 
 I build and run cloud infrastructure, Kubernetes clusters, Terraform projects and CI/CD pipelines.
 Lately most of my curiosity goes to the infrastructure behind AI. I love digging into how it really works: what happens between a prompt and a response, and the best practices that let so many people use AI without ever noticing the complex systems behind it.
 
 I do my best work as part of a strong team. I like digging into an incident together, giving and getting honest code reviews, and celebrating the deploys that turn out boring. I'm happy to be the teammate people can ask anything, and I ask plenty back.
 
-Before tech, I was a Company Sergeant Major in the IDF's Duvdevan unit. Leading a team under pressure turned out to be good training for production incidents.
+Before tech, I was a Company Sergeant Major in the IDF. Leading a team under pressure turned out to be good training for production incidents.
 
 ### Human as code: `matan.yaml`
 
