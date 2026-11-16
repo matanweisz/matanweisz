@@ -1,42 +1,94 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Matan Weisz, DevOps and Cloud Infrastructure Engineer" />
+  <img src="assets/banner.svg" width="100%" alt="Matan Weisz: DevOps engineer, AI enthusiast, builder" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/matanweisz"><img src="https://img.shields.io/badge/LinkedIn-matanweisz-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <br />
-  <sub>Herzliya, Israel · open to DevOps, platform, SRE and AI infrastructure roles</sub>
+  <a href="https://linkedin.com/in/matanweisz"><img src="https://img.shields.io/badge/LinkedIn-say_hi-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/based_in-Herzliya,_Israel-1f8f84?style=flat-square" alt="Based in Herzliya, Israel" />
+  <img src="https://img.shields.io/badge/status-open_to_new_roles-2ea44f?style=flat-square" alt="Open to new roles" />
 </p>
 
-I'm a DevOps and cloud infrastructure engineer. I run Kubernetes in production, write the infrastructure as code, and automate the work around it. At ZoomInfo I operated hundreds of Kubernetes clusters on AWS and GCP. Now I'm going deeper where infrastructure meets AI: serving open models on Kubernetes, GPUs, and the platforms that let teams use LLMs safely and at a cost they can see.
+I'm a DevOps engineer who got hooked on AI. I like infrastructure that runs itself: Kubernetes, Terraform and pipelines that do the boring parts so people don't have to. Lately most of my free time goes to LLMs: learning how to serve open models on GPUs, wiring AI agents to real tools, and building apps with an AI pair programmer next to me.
 
-### What I've worked on
+```yaml
+apiVersion: humans/v1
+kind: Engineer
+metadata:
+  name: matan-weisz
+  labels: {role: devops-engineer, location: herzliya-israel}
+spec:
+  loves: [kubernetes, automation, llms, shipping-things]
+  aiToolbox: [claude-code, mcp, llm-apis, n8n]
+  currentlyLearning: [vllm, gpus-on-kubernetes, go]
+  formerly: company-sergeant-major-duvdevan
+status:
+  phase: Building
+  openTo: [devops, platform, sre, ai-infrastructure]
+```
 
-- **Kubernetes at scale, ZoomInfo.** Operated hundreds of EKS and GKE clusters day to day, all managed as code in Terraform. Moved administration of hundreds of GKE clusters to GCP Fleets, which gave the company one automated, consistent way to manage them.
-- **AI Gateway, ZoomInfo.** Worked on the company's central AI Gateway, through which hundreds of internal services and employees use internal and third-party LLMs, with access control and usage tracking in one place.
-- **AI root-cause helper for CI/CD, Infinity Labs.** Designed and built a proof of concept on n8n, LLM APIs and MCP tools that reads the logs of failed pipelines and points developers to the root cause. Other departments then adopted the n8n platform I deployed.
-- **GitOps and infrastructure as code, Infinity Labs.** Built CI/CD pipelines and GitOps deployments with Argo CD, worked on moving legacy cloud infrastructure to Terraform, and mentored DevOps students from theory to a simulated production deployment.
+## Skill tree
 
-### What I'm building now
+<table>
+  <tr>
+    <td width="170"><b>Daily drivers</b><br/><sub>what I reach for first</sub></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kubernetes%2Cdocker%2Cterraform%2Caws%2Cgcp%2Cgithubactions%2Cgitlab%2Clinux%2Cbash%2Cpy%2Cgit&theme=light" />
+        <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,aws,gcp,githubactions,gitlab,linux,bash,py,git&theme=dark" height="40" alt="Kubernetes, Docker, Terraform, AWS, GCP, GitHub Actions, GitLab, Linux, Bash, Python, Git" />
+      </picture>
+      <br/><sub>plus Helm, Argo CD, Crossplane, Jenkins, Prometheus, Grafana</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Building with</b><br/><sub>my side-project stack</sub></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=fastapi%2Creact%2Cts%2Cvite%2Ctailwind%2Csupabase&theme=light" />
+        <img src="https://skillicons.dev/icons?i=fastapi,react,ts,vite,tailwind,supabase&theme=dark" height="40" alt="FastAPI, React, TypeScript, Vite, Tailwind, Supabase" />
+      </picture>
+      <br/><sub>plus Claude Code, MCP, LLM APIs and n8n</sub>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Leveling up</b><br/><sub>learning right now</sub></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=go&theme=light" />
+        <img src="https://skillicons.dev/icons?i=go&theme=dark" height="40" alt="Go" />
+      </picture>
+      <br/><sub>vLLM and SGLang, GPUs on Kubernetes, Kubernetes operators in Go, Karpenter</sub>
+    </td>
+  </tr>
+</table>
 
-**A self-hosted LLM platform on Kubernetes**, built in stages: open models served with vLLM on a GPU, an internal AI gateway with per-team keys, budgets and fallback, a Go operator for self-service model deployment, then GPUs on EKS that scale from zero, eval-gated rollouts and a verified supply chain. I'll publish each stage once it works.
+## Project shelf
 
-I also build my own tools. My daily driver is a personal app (FastAPI and React, installable on my phone) that plans my learning and job search, deploys itself on every merge and rolls back on a failed health check.
+<!-- Newest and best first. Each card: name, one line on why it's interesting, the stack. -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/matanweisz/claude-devops-interviews"><b>claude-devops-interviews</b></a><br/>
+      An AI interviewer built on Claude Code. It runs realistic DevOps interviews, adapts to your level and tracks your weak spots across sessions.<br/>
+      <sub><code>Claude Code</code> <code>LLM agents</code> <code>DevOps</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/matanweisz/bigarch-devops-assignment"><b>bigarch-devops-assignment</b></a><br/>
+      An HPC scheduler meets cloud-native monitoring: Slurm built from source and installed by SaltStack, its jobs reporting live load to Prometheus and Grafana on K3s. One <code>vagrant up</code> builds it all.<br/>
+      <sub><code>Slurm</code> <code>K3s</code> <code>SaltStack</code> <code>Prometheus</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <a href="https://github.com/matanweisz/package-tracker-api"><b>package-tracker-api</b></a><br/>
+      An event-driven package tracking API with separate read and write paths (CQRS).<br/>
+      <sub><code>Python</code> <code>Kafka</code> <code>MongoDB</code> <code>Redis</code></sub>
+    </td>
+    <td valign="top">
+      <a href="https://github.com/matanweisz/deploy-n8n-production"><b>deploy-n8n-production</b></a><br/>
+      One script that turns a clean VM into a production n8n with PostgreSQL behind an nginx reverse proxy.<br/>
+      <sub><code>Bash</code> <code>Docker Compose</code> <code>PostgreSQL</code> <code>nginx</code></sub>
+    </td>
+  </tr>
+</table>
 
-### Where I'm heading
-
-AI platform and LLMOps engineering: LLM inference and GPU scheduling on Kubernetes, AI gateways and cost control, and evals as a release gate. Open to roles in Israel or remote.
-
-### Toolbox
-
-| Area | Tools |
-|---|---|
-| **Cloud** | AWS (EKS, EC2, S3, IAM, VPC), GCP (GKE, Fleets, Shared VPC) |
-| **Kubernetes** | Kubernetes, Helm, Docker, Argo CD, Crossplane |
-| **IaC and CI/CD** | Terraform, GitLab CI, GitHub Actions, Jenkins |
-| **Observability** | Prometheus, Grafana, Loki |
-| **Code and AI** | Python, Bash, LLM APIs, MCP, n8n |
-
-### Before tech
-
-Company Sergeant Major in the IDF's Duvdevan unit: responsible for soldiers, equipment and readiness, and led teams on missions at short notice. Later volunteered as an Israeli emissary for The Jewish Agency. AWS Certified Cloud Practitioner.
+<p align="center"><sub>More on the way. Ideas or questions? <a href="https://linkedin.com/in/matanweisz">Find me on LinkedIn</a>.</sub></p>
